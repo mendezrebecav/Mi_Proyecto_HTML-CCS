@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MiPráctica</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Mi_Proyecto_HTML_CSS/foler_styles/style.css">
+        <link rel="stylesheet" href="/Mi_Proyecto_HTML_CSS/foler_styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+        <style> 
+
+
+            
+            header {
+            height: auto;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+            box-sizing: border-box;
+            height: 200px;
+            transition: 0.5s;
+            background:rgba(178, 98, 166, 0.886) ;
+        }
+            .pic_logo {
+                text-align: center ;
+            }
+            ul {
+                list-style-type: none;
+
+            }
+
+            li{
+                width: 175px;
+            }
+
+           li a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            width: 155px;
+            height: 50px;
+            text-align: center;
+           }
+
+            body{
+              background-color: rgba(218, 213, 207, 0.242)  ;
+              padding: 0 ; 
+              font-family: Arial, Helvetica, sans-serif;
+            }
+
+        .candy1{
+            text-align: center;
+            color: rgba(178, 98, 166, 0.886);
+            font-size: 80px;
+            font-family: 'Dancing Script', cursive;
+        }
+        .big_picture {
+            text-align: center;
+            
+        }
+        footer {
+            text-align: center;
+            background-color: rgba(178, 98, 166, 0.886);
+            height: 100px;
+            font-size: 16px;
+            
+        }
+        a:hover{
+            background: yellow;
+            color: black;
+        }
+        .anime_candy {
+            font-family: 'Dancing Script';
+            font-size: 25px;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            color: rgba(178, 98, 166, 0.886);     
+        }
+        
+
+    </style>
+    </head>
+    <body>
+        <header>
+              
+            <ul class="menu">
+            
+                <a href="#Formulario">Ir a Formulario</a>
+                <li class="item_menu"><a href="#skills">Skills</a></li>
+                <li class="item_menu"><a href="#historia">Su historia</a></li>
+                </ul>
+
+                <img class="pic_logo" src="/imagenes/logo_candy.png" />
+
+        </header>
+        
+        <main>
+            <div class="title" id="id_title">
+                <h1 class="candy1">Candy Candy</h1>
+            </div>
+            <nav>
+                <div class="big_picture" id="id_big_picture">
+                <img src="/imagenes/candy.jpg" width="80%" alt="Candy_imagen">
+                </div>
+                
+            <section class="Candy_history" id="id_history">
+        
+                <article>
+                    <div class="title_2" id="id_title_2">    
+                    <h2>Su historia</h2>
+                    </div>
+                    <div class="tex" id="id_tex"></div>
+                    <p><strong>Candy Candy</strong>  es un manga creado por Keiko Nagita y Yumiko Iragashi, publicado en Japón entre 1975 y 1979. La historia cuenta las vivencias de una chica huérfana llamada Candice White. La historieta fue más tarde adaptada a una serie de anime, por Toei Animation entre 1976 y 1979, que se volvió mucho más popular en varios lugares. El doblaje al español hispanoAméricano de dicha serie se hizo en Argentina. La protagonista fue doblada por Cecilia Gispert.</p>
+                    <p class="informacion"> La Historia cuenta la vida de Candice (apodada «Candy»), una niña que fue abandonada de niña y criada en un orfanato. Finalmente es adoptada, pero lucha con el trato cruel de su nueva familia debido a sus antecedentes, y finalmente logra salir al mundo y ganarse la vida.      
+                    </p>
+                </article>
+        
+            </section>
+        
+            <section class="Pictures" id="id_pictures">
+        
+                <article>
+                    <img src="/imagenes/Candy_amigos.jpg" alt="Candy_friends" width="350"/>
+                    <p>Candy y sus amigos</p>
+                <article>
+                    <img src="/imagenes/nurse_candy.jpg" alt="Nurse_Candy" width="350"/>
+                    <p>Candy enfermera</p>
+                </article>
+        
+                <article>
+                    <img src="/imagenes/ponys_home.jpg" alt="Ponys_Home" width="350"/>
+                    <p>El hogar de Pony</p>
+                </article>
+                
+            </section>
+        
+            <section class="skills" id="id_skills" >
+        
+                <h3>Skills</h3>
+        
+                <span>Sonrriente</span>
+                <div class="skill_1">
+                    <div class="skill_progress" id="id_skill_1">
+                    <!--Barra de progreso-->
+                    <progress max="100" value="25">
+                </div>
+        
+                <span>Amistosa</span>
+                <div class="skill_1">
+                    <div class="skill_progress" id="id_skill_2">
+                    <!--Barra de progreso-->
+                    <progress max="100" value="20">
+                </div>
+        
+                <span>Torpe</span>
+                <div class="skill_1">
+                    <div class="skill_progress" id="id_skill_3">
+                    <!--Barra de progreso-->
+                    <progress max="100" value="10">
+                </div>
+        
+                <span>Traviesa</span>
+                <div class="skill_1">
+                    <div class="skill_progress" id="id_skill_4">
+                    <!--Barra de progreso-->
+                    <progress max="100" value="80">
+                </div>
+        
+            </section>
+        
+            <section class="subscribete">
+                <div id="Formulario">
+        
+                <h3>Suscríbete</h3>
+        
+                <form action="#" method="post">
+        
+        
+                    <div class="form_box">
+                        <span>
+                            <label for="name">Nombre:</label>
+                            <input required id="id_name" name="nombre" type="text" placeholder="Coloca tu nombre">
+                        </span>
+                        <span>
+                            <label for="phone">Teléfono: </label>
+                            <input required id="id_phone" name="telefono" type="number" placeholder="Nº de teléfono" minlength="9">
+                        </span>
+                        <span>
+                            <label for="gitHub">Usuario GitHub: </label>
+                            <input id="id_gitHub" name="gitHub" type="text" placeholder="@<username>" pattern="^@[^\s]+">
+                        </span>
+                        <span>
+                            <label for="age">Edad:</label>
+                            <input id="id_age" name="Edad" placeholder="Tu edad" type="number" min="18" max="120">
+                        </span>
+                    </div>
+                </div>
+                    <p>¿Como me conociste?</p>
+                        <div>
+                            <input required id="uni" type="radio" name="meet" value="Universidad">
+                            <label for="Universidad">Universidad</label>
+                        </div>
+                        <div>
+                            <input required  id="keepcoding" type="radio" name="meet" value="keepcoding">
+                            <label for="keepcoding">KeepCoding</label>
+                        </div>
+                        <div>
+                            <input required id="Colegio" type="radio" name="meet" value="Colegio">
+                            <label for="Colegio">Colegio</label>
+                        </div>
+                    
+                        <div>
+                            <input required id="GitHub" type="radio" name="meet" value="GitHub">
+                            <label for="GitHub">GitHub</label>
+                        </div>
+                
+                    <label for="information">Màs información: </label>
+                    <textArea id="id_information" name="message" maxlength="300" placeholder="Type your message here (max 180 characters)"></textarea>
+        
+                    <input type="submit" name="submit" value="Enviar formulario">
+        
+                </form>
+        
+            </section>
+        
+        </main>
+
+        <footer class="footer">
+            <em class="anime_candy">Anime Candy Candy Inc.</em>
+            <br>
+            <a href="https://es-es.facebook.com/" target="_blank">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </footer>
+        
+    </body>
+</html>
